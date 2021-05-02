@@ -52,7 +52,7 @@ p {
 }
 
 .hero {
-    height: 1500px;
+    height: 1250px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -64,7 +64,14 @@ p {
     float: left;
     margin-right: 25px;
 }
-
+/* left images for search, online and social media marketing */
+.left-images {
+    max-height: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 30px
+}
 .float-right {
     float: right;
     margin-left: 25px;
@@ -118,13 +125,9 @@ p {
     font-size: 40px;
     margin-bottom: 30px;
 }
-/* left images for search, online and social media marketing */
-.left-images {
-    max-height: 300px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 30px
+.left-p {
+    font-size: 28px;
+    flex-wrap:nowrap;
 }
 .footer {
     padding: 30px;
